@@ -1,0 +1,27 @@
+var N = random int
+
+read user input 
+
+if user input < N 
+Write: you guessed to low, keep guessing higher
+read user input
+
+if user input > N 
+Write: you guessed to high, keep guessing lower
+read user input
+
+if user user input = N
+Write: You guessed the right number 
+
+
+Player Side:
+
+var I = int 2
+
+if I < N
+
+I * 2 
+
+if I > N
+ 
+I 
