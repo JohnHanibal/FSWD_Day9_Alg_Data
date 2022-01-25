@@ -39,3 +39,15 @@ WHILE - END WHILE   a loop (iteration that has a condition at
 FOR – END FOR       a counting loop (iteration)
 REPEAT – UNTIL      a loop (iteration) that has a condition 
                     check at the end
+
+
+                    take input 
+
+                    if input = Number
+    type : YOu did it!
+
+    if input (> / <) N type: try again!
+
+
+
+
