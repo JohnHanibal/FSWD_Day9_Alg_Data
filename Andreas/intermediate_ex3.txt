@@ -1,0 +1,24 @@
+
+WHILE TRUE
+   DISPLAY "Please insert the amount you would like to withdraw"
+   amount = INPUT
+   IF (INPUT/10) != N int THEN
+      DISPLAY "You can only withdraw a multiple of ten! Maximum is 400"
+   ELSE
+      IF amount<10 OR amount>400 THEN
+         DISPLAY "You can only withdraw between 10 and 400"
+      ELSE
+         notes100
+         notes50
+         notes20 = amount DIV 20
+         notes10 = (amount MOD 20) / 10
+         DISPLAY "Collect your money: "
+         DISPLAY "    >> 100 Banknotes: " + notes100
+         DISPLAY "    >>  50 Banknotes: " + notes 50
+         DISPLAY "    >>  20 Banknotes: " + notes 20
+         DISPLAY "    >>  10 Banknotes: " + notes 10
+         DISPLAY "Thank you, have a nice day."
+      END IF
+   END IF
+END WHILE
+
