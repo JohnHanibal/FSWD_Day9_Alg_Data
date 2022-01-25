@@ -1,0 +1,41 @@
+
+START
+
+CREATE number int N
+
+OUTPUT: "Number created. Make your guess!"
+
+INPUT var int = 2
+
+    IF: I !=N 
+
+    THEN: 
+    
+    I<N - OUTPUT: "Your guess is too low, try again!"
+
+        INPUT: I*2
+
+    IF: I>N - OUTPUT: "Your guess is too high, try again!"
+
+        INPUT: I-I:4
+
+    REPEAT UNTIL I=N
+
+ELSE: OUTPUT: "Your guess is correct, well done! END
+
+
+
+
+INPUT               indicates a user will be inputting something
+OUTPUT              indicates that an output will appear on the screen
+IF – THEN – ELSE    a decision (selection) in which a choice is made
+                    any instructions that occur inside a selection 
+                    or iteration are usually indented (aka white 
+                    spaces are added, so that instructions appear 
+                    visually as a block)
+
+WHILE - END WHILE   a loop (iteration that has a condition at 
+                    the beginning)
+FOR – END FOR       a counting loop (iteration)
+REPEAT – UNTIL      a loop (iteration) that has a condition 
+                    check at the end
